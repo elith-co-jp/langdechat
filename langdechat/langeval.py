@@ -9,11 +9,10 @@ from .data.task.gpt4_with_calc.date import date_questions
 DATE_QUESTIONS = date_questions()
 
 class TastingPrompt:
-    def __init__(self, suffix_prompt=None):
+    def __init__(self, prefix_prompt=None, suffix_prompt=None):
         self.suffix_prompt = suffix_prompt
         self.prompt = PromptTemplate(
-            template="質問: {question}"+f"{suffix_prompt}\n回答:", 
-            # input_variables=["question","suffix_prompt"]
+            template=f"{prefix_prompt}\n"+"質問: {question}"+f"{suffix_prompt}\n回答:", 
             input_variables=["question"]
         )
         
