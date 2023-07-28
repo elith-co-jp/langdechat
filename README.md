@@ -1,4 +1,6 @@
 # LLM評価ライブラリ Lang de chat（ラング・ド・シャ）
+![image](https://github.com/elith-co-jp/langdechat/assets/45144084/ac43c883-9a7a-4cb7-9d94-fdbf9eaede4b)
+
 ## 概要
 - LLMによるプロダクトリリースの際にモデル自体の評価やプロンプトの評価を簡単に行いたいと思い、作成しました。
 - OpenAIなどのLLMのでは利用にAPI料金がかかってしまいますが、「Lang de chat」を利用すれば気軽に少量データでタスクに特化した日本語プロンプトで評価できます。
