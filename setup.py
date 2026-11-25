@@ -9,7 +9,7 @@ setup(
     description='Prompt Performance Check Library',
     packages=find_packages(),    
     install_requires=[
-        'langchain==0.0.240',
+        'langchain==1.3.9',
         'datasets>=0.2.0',
         'openai>=0.27.0',
     ],
